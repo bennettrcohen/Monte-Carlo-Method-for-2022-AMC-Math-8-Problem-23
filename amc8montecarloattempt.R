@@ -1,6 +1,6 @@
 ## Initialize n, number of iterations
 ## Initialize success, a success count variable
-n <- 100000
+n <- 50000
 success <- 0
 
 for (i in 1:n) {
