@@ -9,7 +9,6 @@ for (i in 1:n) {
   ## Circle = 1
   board <- sample(c(0,1), replace = T, size = 9)
   board_mat <- matrix(board, nrow = 3)
-  board_mat
   
   ## Calculate row and column sums of the grid
   row <- rowSums(board_mat)
